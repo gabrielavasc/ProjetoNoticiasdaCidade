@@ -1,0 +1,224 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x ;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h2 {
+	font-size: 1.1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	font-size: 0.9em;
+	background-color: #fff;
+	padding: 4px;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+
+img {
+	border: 2px solid #dfdfdf;
+}
+
+h3 {
+	text-transform: uppercase;
+	display:  inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+#container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#topo {
+	height: 150px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right;
+	padding-top: 35px;
+}
+
+#navegacao {
+	padding-left: 125px;
+}
+
+#topo ul {
+	background: #b10333;
+	margin-top: 20px;	
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 1em 2em;
+	line-height: 1.5 em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) no-repeat left center ;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #69001d;
+}
+
+#conteudo {
+	background: #f5f5f5 center;
+	margin-top: 60px;
+}
+
+#lateral {
+	width: 210px;
+	float: left;
+	margin: 0 0 20px -1090px;
+}
+
+#primario {
+	width: 340px;
+	float: left;
+	margin: 0 0 20px 310px;	
+}
+
+#duas-colunas #primario {
+	width: 650px;
+	background: pink;		
+}
+
+#uma-coluna #primario {
+	width: 1100px;
+	background: pink;
+	margin: 0 0 20px 0px;	
+}
+
+#secundario { 
+	width: 340px;
+	float: left;
+	margin: 0 0 20px 100px;	
+}
+
+.caixa {
+	background: #f3f3f3 url(../imagens/fundo-caixa.png);
+	margin: 10px 0;
+	padding: 5px;
+}
+
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#lateral ul a {
+	font-size: 1em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left;
+	color: #a1a1a1;
+	padding-left: 20px;
+}
+
+#rodape {
+	background: #294c71;
+	padding: 20px;
+}
+
+#fmtrodape {
+	color:  #fff;
+	margin: 0 auto;
+	width: 750px;
+}
+
+.logo {
+	width: 152px;
+	height: 70px;
+	background: url(../imagens/logo.png) no-repeat center;
+}
+
+.destaque h3 {
+	background: #b10333;
+	color: #fff;
+}
+
+.entrevista h3 {
+	background: #de003e;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos
+ {
+	color:  #fff;
+	background: #de003e;
+	cursor: text;
+}
+
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+	font-size: 0.8em;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+	font-size: 0.7em;
+}
+
+#lista-noticias li:hover {
+	background: #eee;
+	cursor: pointer;
+}
